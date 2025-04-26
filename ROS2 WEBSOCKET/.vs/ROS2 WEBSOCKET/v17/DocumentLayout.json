@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\components\\service\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\components\\service\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|c:\\users\\volkan\\source\\repos\\ros2 websocket\\ros2 websocket\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}|ROS2 WEBSOCKET\\ROS2 WEBSOCKET.csproj|solutionrelative:ros2 websocket\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\MauiProgram.cs",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:37:28.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:32:44.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\App.xaml.cs",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:47:47.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebSocketService.cs",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Service\\WebSocketService.cs",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\Components\\Service\\WebSocketService.cs",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Service\\WebSocketService.cs",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\Components\\Service\\WebSocketService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:37:07.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:33:58.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ROS2 WEBSOCKET\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\MainPage.xaml.cs",
+              "RelativeToolTip": "ROS2 WEBSOCKET\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:47:52.886Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

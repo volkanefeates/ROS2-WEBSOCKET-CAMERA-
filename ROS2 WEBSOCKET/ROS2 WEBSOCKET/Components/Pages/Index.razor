@@ -1,0 +1,89 @@
+﻿@page "/"
+@inject WebSocketService WebSocketService
+
+<h3>ROS2 Kamera Paneli</h3>
+
+@if (!WebSocketService.IsConnected)
+{
+    <p style="color:red;">🔴 WebSocket bağlı değil.</p>
+}
+else if (string.IsNullOrEmpty(latestImage))
+{
+    <p style="color:orange;">🟠 Bekleniyor... Henüz görüntü alınmadı.</p>
+}
+else
+{
+    <div style="text-align:center; margin-top:20px;">
+        <img src="data:image/jpeg;base64,@latestImage"
+             style="max-width:640px; max-height:480px; border:2px solid black;" />
+    </div>
+}
+
+@code {
+    string latestImage = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await WebSocketService.ConnectAsync("ws://192.168.137.170:9090");
+        await SubscribeToTopic("/camera_sensor/image_raw/compressed", "sensor_msgs/msg/CompressedImage");
+        _ = ListenMessages();
+    }
+
+    async Task SubscribeToTopic(string topic, string type)
+    {
+        var msg = new { op = "subscribe", topic, type };
+        await WebSocketService.SendAsync(System.Text.Json.JsonSerializer.Serialize(msg));
+    }
+
+    async Task ListenMessages()
+    {
+        while (WebSocketService.IsConnected)
+        {
+            var incoming = await WebSocketService.ReceiveAsync();
+
+            // 1) Gelen metinde ilk '{' ve son '}' indekslerini bul
+            int start = incoming.IndexOf('{');
+            int end = incoming.LastIndexOf('}');
+            if (start < 0 || end < 0 || end <= start)
+            {
+                // JSON blok yok, atlıyoruz
+                continue;
+            }
+
+            var json = incoming.Substring(start, end - start + 1);
+
+            try
+            {
+                using var doc = System.Text.Json.JsonDocument.Parse(json);
+                var root = doc.RootElement;
+
+                // Sadece publish mesajlarını alalım
+                if (root.TryGetProperty("op", out var op) && op.GetString() != "publish")
+                    continue;
+
+                // msg -> data dizisini okuyalım
+                if (root.TryGetProperty("msg", out var msg) &&
+                    msg.TryGetProperty("data", out var data) &&
+                    data.ValueKind == System.Text.Json.JsonValueKind.Array)
+                {
+                    // Byte array'e çevir
+                    var bytes = data.EnumerateArray()
+                                    .Select(x => (byte)x.GetInt32())
+                                    .ToArray();
+
+                    // Base64 yap
+                    latestImage = Convert.ToBase64String(bytes);
+                    await InvokeAsync(StateHasChanged);
+                }
+            }
+            catch (System.Text.Json.JsonException)
+            {
+                // Hatalı JSON, yoksay
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Beklenmeyen hata: " + ex.Message);
+            }
+        }
+    }
+}

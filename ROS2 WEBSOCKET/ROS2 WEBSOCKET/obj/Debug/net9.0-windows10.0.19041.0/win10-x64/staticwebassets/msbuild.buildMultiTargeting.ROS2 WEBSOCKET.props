@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ROS2 WEBSOCKET.props" />
+</Project>

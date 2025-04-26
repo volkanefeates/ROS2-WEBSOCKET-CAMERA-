@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ROS2 WEBSOCKET.props" />
+</Project>

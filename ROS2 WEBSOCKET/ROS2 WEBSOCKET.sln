@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROS2 WEBSOCKET", "ROS2 WEBSOCKET\ROS2 WEBSOCKET.csproj", "{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DEA3CF-4C63-4B7C-9C46-C7D86FB52C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAC3BEEE-EA26-4A7B-9220-A86376A546AD}
+	EndGlobalSection
+EndGlobal

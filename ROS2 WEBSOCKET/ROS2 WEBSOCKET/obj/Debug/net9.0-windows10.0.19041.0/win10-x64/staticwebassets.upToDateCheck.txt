@@ -1,0 +1,8 @@
+C:\Users\volkan\source\repos\ROS2 WEBSOCKET\ROS2 WEBSOCKET\wwwroot\css\app.css
+C:\Users\volkan\source\repos\ROS2 WEBSOCKET\ROS2 WEBSOCKET\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\volkan\source\repos\ROS2 WEBSOCKET\ROS2 WEBSOCKET\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\volkan\source\repos\ROS2 WEBSOCKET\ROS2 WEBSOCKET\wwwroot\index.html
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html

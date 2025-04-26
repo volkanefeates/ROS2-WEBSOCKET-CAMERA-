@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ROS2 WEBSOCKET.styles.css",
+      "PackagePath": "staticwebassets\\ROS2 WEBSOCKET.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\volkan\\source\\repos\\ROS2 WEBSOCKET\\ROS2 WEBSOCKET\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.ROS2 WEBSOCKET.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.ROS2 WEBSOCKET.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.ROS2 WEBSOCKET.props",
+      "PackagePath": "build\\ROS2 WEBSOCKET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.ROS2 WEBSOCKET.props",
+      "PackagePath": "buildMultiTargeting\\ROS2 WEBSOCKET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.ROS2 WEBSOCKET.props",
+      "PackagePath": "buildTransitive\\ROS2 WEBSOCKET.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
